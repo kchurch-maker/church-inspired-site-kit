@@ -52,7 +52,7 @@ const Contact = () => {
       
       <footer className="mt-24 pt-8 border-t border-slate-200 text-center">
         <p className="text-sm text-slate-400">
-          © 2024 Your Name. All rights reserved.
+          © 2024 Karen Church. All rights reserved.
         </p>
       </footer>
     </section>

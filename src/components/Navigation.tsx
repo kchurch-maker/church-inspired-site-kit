@@ -16,7 +16,7 @@ const Navigation = () => {
 
   const navItems = [
     { name: 'About', href: '#about' },
-    { name: 'Work', href: '#work' },
+    { name: 'Writing & Speaking', href: '#writing-speaking' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -30,7 +30,7 @@ const Navigation = () => {
             href="#" 
             className="text-xl font-light text-slate-800 hover:text-slate-600 transition-colors"
           >
-            Your Name
+            Karen Church
           </a>
 
           {/* Desktop Navigation */}
