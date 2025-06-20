@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Hero = () => {
@@ -9,8 +8,7 @@ const Hero = () => {
           Hello, I'm <span className="font-normal">Karen Church</span>
         </h1>
         <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed font-light">
-          A passionate designer and developer creating meaningful digital experiences 
-          that bridge creativity and functionality.
+          A passionate Research & Data Science leader who turns data into decisions that matter.
         </p>
         <div className="mt-12">
           <a
