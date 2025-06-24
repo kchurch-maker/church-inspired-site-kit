@@ -1,50 +1,7 @@
 
 import React from 'react';
-import { ExternalLink, Calendar, MapPin, BookOpen } from 'lucide-react';
 
 const WritingSpeaking = () => {
-  const blogPosts = [
-    {
-      title: "The Future of Digital Design",
-      description: "Exploring emerging trends in digital design and their impact on user experience.",
-      date: "March 15, 2024",
-      link: "#"
-    },
-    {
-      title: "Building Meaningful Connections",
-      description: "How design can foster genuine human connections in digital spaces.",
-      date: "February 22, 2024",
-      link: "#"
-    },
-    {
-      title: "Sustainable Design Practices",
-      description: "Creating environmentally conscious design solutions for the modern web.",
-      date: "January 10, 2024",
-      link: "#"
-    }
-  ];
-
-  const speakingEngagements = [
-    {
-      title: "Design Conference 2024",
-      topic: "The Intersection of Creativity and Technology",
-      date: "June 15, 2024",
-      location: "San Francisco, CA"
-    },
-    {
-      title: "UX Summit",
-      topic: "Building Empathy Through Design",
-      date: "April 20, 2024",
-      location: "New York, NY"
-    },
-    {
-      title: "Tech Talk Series",
-      topic: "Future-Proofing Your Design Career",
-      date: "March 8, 2024",
-      location: "Austin, TX"
-    }
-  ];
-
   return (
     <section id="writing-speaking" className="py-24 px-6 lg:px-8 bg-slate-50">
       <div className="max-w-4xl mx-auto">
@@ -52,75 +9,238 @@ const WritingSpeaking = () => {
           Writing & Speaking
         </h2>
         
-        {/* Blog Posts Section */}
-        <div className="mb-20">
-          <div className="flex items-center mb-8">
-            <BookOpen className="w-5 h-5 text-slate-600 mr-3" />
-            <h3 className="text-xl font-light text-slate-800">Recent Writing</h3>
-          </div>
-          
-          <div className="space-y-6">
-            {blogPosts.map((post, index) => (
-              <article
-                key={index}
-                className="border-l-2 border-slate-200 pl-6 hover:border-slate-400 transition-colors duration-200"
-              >
-                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
-                  <h4 className="text-lg font-light text-slate-800 hover:text-slate-600 transition-colors">
-                    {post.title}
-                  </h4>
-                  <span className="text-sm text-slate-500 mt-1 sm:mt-0">{post.date}</span>
-                </div>
-                <p className="text-slate-600 text-sm leading-relaxed mb-3">
-                  {post.description}
-                </p>
-                <a
-                  href={post.link}
-                  className="inline-flex items-center text-slate-600 hover:text-slate-800 transition-colors text-sm group"
-                >
-                  Read More
-                  <ExternalLink className="ml-1 w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-                </a>
-              </article>
-            ))}
+        {/* Overview */}
+        <div className="mb-16 text-slate-600 leading-relaxed">
+          <p className="mb-4">
+            I speak about research, data science, AI and product innovation - with a growing focus on how AI is reshaping the way we work, build, and serve customers. My talks explore what it means to lead AI-forward teams, how AI is blurring the lines between disciplines, and the evolving role of data and research in driving decisions across fast-moving organizations.
+          </p>
+          <p>
+            Whether I'm giving a keynote, joining a panel, or recording a podcast, I focus on sharing tangible learnings and practical tools - from building high-impact research and data science teams to applying insights in the real world. If you're organizing a conference, panel, or internal event, feel free to get in touch.
+          </p>
+        </div>
+
+        {/* Podcasts */}
+        <div className="mb-12">
+          <h3 className="text-xl font-light text-slate-800 mb-6">📻 Podcasts</h3>
+          <div className="space-y-4">
+            <div>
+              <p className="text-slate-800">
+                <strong>Connect AI Podcast – How AI is a Game-Changer for Customer Support</strong> (May 2025)
+              </p>
+            </div>
           </div>
         </div>
 
-        {/* Speaking Engagements Section */}
-        <div>
-          <div className="flex items-center mb-8">
-            <Calendar className="w-5 h-5 text-slate-600 mr-3" />
-            <h3 className="text-xl font-light text-slate-800">Speaking Engagements</h3>
+        {/* Selected Talks & Panels */}
+        <div className="mb-12">
+          <h3 className="text-xl font-light text-slate-800 mb-6">🎤 Selected Talks & Panels</h3>
+          <div className="space-y-4">
+            <div>
+              <p className="text-slate-800">
+                <strong>Rewriting the Rules: How AI is Transforming Research, Data Science, and Beyond</strong><br />
+                <em>Backmarket Product & Data Fair</em> (April 2025)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>The Most Underrated Skill in Data Science</strong><br />
+                <em>Keynote, Women in Data Science Dublin</em> (July 2023)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>What It Really Takes to Drive Impact with Data Science & Research</strong><br />
+                <em>HER+Data Dublin</em> (July 2022)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>What It Really Takes to Drive Impact with Data Science in Fast-Growing Companies</strong><br />
+                <em>Keynote, Women in RecSys</em> (Sept 2021)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Driving Product Impact with Data at Intercom</strong><br />
+                <em>AnitaB.org @ Hopper Local, Dublin</em> (Feb 2019)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Building a World-Class Analytics & Data Science Team: Let's Talk Hiring!</strong><br />
+                <em>HER+Data Dublin</em> (Jan 2019)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>My Journey with Data and Founding HER+Data</strong><br />
+                <em>HER+Data Manchester</em> (Sept 2018)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>The Human Side of Data</strong><br />
+                <em>InspireFest</em> (July 2017) <a href="#" className="text-blue-600 hover:text-blue-800">📹 Video</a>
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>My Personal Journey with Data</strong><br />
+                <em>HER+Data Dublin</em> (May 2017)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Great Analytics Starts with Great Foundations</strong><br />
+                <em>Predict 2017</em> (Oct 2016) <a href="#" className="text-blue-600 hover:text-blue-800">📹 Video</a>
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Mobile Search: A Force to Be Reckoned With!</strong><br />
+                <em>ECIR 2013 Industry Day</em> (March 2013) <a href="#" className="text-blue-600 hover:text-blue-800">📄 Slides</a>
+              </p>
+            </div>
           </div>
-          
-          <div className="space-y-6">
-            {speakingEngagements.map((event, index) => (
-              <div
-                key={index}
-                className="border-l-2 border-slate-200 pl-6 hover:border-slate-400 transition-colors duration-200"
-              >
-                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
-                  <div className="flex-1">
-                    <h4 className="text-lg font-light text-slate-800 mb-1">
-                      {event.title}
-                    </h4>
-                    <p className="text-slate-600 text-sm mb-2">
-                      {event.topic}
-                    </p>
-                  </div>
-                  <div className="text-sm text-slate-500 sm:text-right sm:ml-4">
-                    <div className="flex items-center sm:justify-end mb-1">
-                      <Calendar className="w-3 h-3 mr-1" />
-                      {event.date}
-                    </div>
-                    <div className="flex items-center sm:justify-end">
-                      <MapPin className="w-3 h-3 mr-1" />
-                      {event.location}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
+        </div>
+
+        {/* Selected Writing */}
+        <div>
+          <h3 className="text-xl font-light text-slate-800 mb-6">Selected Writing</h3>
+          <div className="space-y-4">
+            <div>
+              <p className="text-slate-800">
+                <strong>Rewriting the Rules: How AI is Transforming Research, Data Science, and Beyond</strong> (April 2025)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>From Silos to Synergy: Building Stronger Research & Data Science Collaboration</strong> (Oct 2024)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>The most underrated skill in data science</strong><br />
+                <em>Intercom RAD, Medium</em> (July 2023)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>7 Lessons on Driving Impact with Data Science & Research</strong><br />
+                <em>Intercom RAD, Medium</em> (October 2022)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Building High-Performing Research and Data Science Teams with Clear Career Paths</strong><br />
+                <em>Inside Intercom Blog</em> (July 2022)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Intercom's Product Principles: How We Focus on Delivering Outcomes</strong><br />
+                <em>Inside Intercom Blog</em> (March 2022)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>How to Structure a Research & Data Science Team</strong><br />
+                <em>Intercom RAD, Medium</em> (November 2021)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Valuable Insights: The Principles Behind Our New Research, Analytics, and Data Science Team</strong><br />
+                <em>Inside Intercom Blog</em> (August 2021)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Introducing RAD: Research, Analytics & Data Science at Intercom</strong><br />
+                <em>Intercom RAD, Medium</em> (May 2021)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Measuring Proactive Communication in COVID-19 Conversations</strong><br />
+                <em>Inside Intercom Blog</em> (April 2020)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>2 Years On – Founding HER+Data</strong><br />
+                <em>Towards Data Science, Medium</em> (December 2019)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>2017 — My Year in Review</strong><br />
+                <em>Medium</em> (December 2017)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Searches, Notifications & Emoji: What Data Reveals About People</strong><br />
+                <em>Inside Intercom Blog</em> (September 2017)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Intercom's Karen Church on Product Analytics</strong><br />
+                <em>Inside Intercom Podcast</em> (July 2017) <a href="#" className="text-blue-600 hover:text-blue-800">🎧</a>
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Product Analytics: 4 Ways to Deliver Better Insights for Higher Quality Decisions</strong><br />
+                <em>Inside Intercom Blog</em> (January 2017)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Your Customers Have Mastered Emoji. Now It's Your Turn.</strong><br />
+                <em>Inside Intercom Blog</em> (December 2016)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>80 Women in Tech Programs & Events in the Bay Area</strong><br />
+                <em>Medium</em> (August 2016)
+              </p>
+            </div>
+            
+            <div>
+              <p className="text-slate-800">
+                <strong>Crowdsourcing Women in Tech Programs & Events in the Bay Area</strong><br />
+                <em>Medium</em> (August 2015)
+              </p>
+            </div>
           </div>
         </div>
       </div>
