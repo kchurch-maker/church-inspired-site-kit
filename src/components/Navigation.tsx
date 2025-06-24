@@ -28,7 +28,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-20">
           <a 
             href="#" 
-            className="text-xl font-light text-slate-800 hover:text-slate-600 transition-colors"
+            className="text-xl font-light text-slate-800 hover:text-purple-600 transition-colors"
           >
             Karen Church
           </a>
@@ -39,7 +39,7 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-slate-600 hover:text-slate-800 transition-colors text-sm font-light tracking-wide"
+                className="text-slate-600 hover:text-purple-600 transition-colors text-sm font-light tracking-wide"
               >
                 {item.name}
               </a>
@@ -49,7 +49,7 @@ const Navigation = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-slate-600 hover:text-slate-800 transition-colors"
+            className="md:hidden text-slate-600 hover:text-purple-600 transition-colors"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -63,7 +63,7 @@ const Navigation = () => {
                 key={item.name}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="block px-6 py-3 text-slate-600 hover:text-slate-800 hover:bg-slate-50 transition-colors"
+                className="block px-6 py-3 text-slate-600 hover:text-purple-600 hover:bg-purple-50 transition-colors"
               >
                 {item.name}
               </a>
