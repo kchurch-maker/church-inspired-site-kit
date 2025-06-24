@@ -41,13 +41,6 @@ const Contact = () => {
             <span className="text-sm font-light">GitHub</span>
           </a>
         </div>
-
-        <a
-          href="mailto:your.email@example.com"
-          className="inline-block bg-slate-800 text-white px-8 py-3 text-sm font-light tracking-wide hover:bg-slate-700 transition-colors"
-        >
-          Get In Touch
-        </a>
       </div>
       
       <footer className="mt-24 pt-8 border-t border-slate-200 text-center">
