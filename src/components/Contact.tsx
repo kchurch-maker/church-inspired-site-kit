@@ -16,29 +16,20 @@ const Contact = () => {
         
         <div className="flex justify-center space-x-8 mb-12">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:church.karen@gmail.com"
             className="flex items-center text-slate-600 hover:text-purple-600 transition-colors group"
           >
             <Mail className="w-5 h-5 mr-2" />
             <span className="text-sm font-light">Email</span>
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://linkedin.com/in/churchkaren"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-slate-600 hover:text-purple-600 transition-colors group"
           >
             <Linkedin className="w-5 h-5 mr-2" />
             <span className="text-sm font-light">LinkedIn</span>
-          </a>
-          <a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center text-slate-600 hover:text-purple-600 transition-colors group"
-          >
-            <Github className="w-5 h-5 mr-2" />
-            <span className="text-sm font-light">GitHub</span>
           </a>
         </div>
       </div>
