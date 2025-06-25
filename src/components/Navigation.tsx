@@ -22,13 +22,13 @@ const Navigation = () => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
+      scrolled ? 'bg-sofia-white/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
     }`}>
-      <div className="max-w-6xl mx-auto px-6 lg:px-8">
+      <div className="max-w-container mx-auto px-xl">
         <div className="flex justify-between items-center h-20">
           <a 
             href="#" 
-            className="text-xl font-light text-slate-800 hover:text-purple-600 transition-colors"
+            className="text-heading font-medium text-sofia-black hover:text-sofia-purple transition-colors"
           >
             Karen Church
           </a>
@@ -39,7 +39,7 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-slate-600 hover:text-purple-600 transition-colors text-sm font-light tracking-wide"
+                className="text-body text-sofia-black hover:text-sofia-purple transition-colors font-light tracking-wide"
               >
                 {item.name}
               </a>
@@ -49,7 +49,7 @@ const Navigation = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-slate-600 hover:text-purple-600 transition-colors"
+            className="md:hidden text-sofia-black hover:text-sofia-purple transition-colors"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -57,13 +57,13 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-white border-t border-slate-100 py-4">
+          <div className="md:hidden absolute top-full left-0 right-0 bg-sofia-white border-t border-sofia-warm-gray py-lg">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="block px-6 py-3 text-slate-600 hover:text-purple-600 hover:bg-purple-50 transition-colors"
+                className="block px-xl py-md text-sofia-black hover:text-sofia-purple hover:bg-sofia-cream transition-colors"
               >
                 {item.name}
               </a>
