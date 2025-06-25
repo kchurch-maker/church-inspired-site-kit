@@ -10,16 +10,19 @@ const About = () => {
         </h2>
         <div className="space-y-6 text-slate-600 leading-relaxed">
           <p>
-            I'm a Research and Data Science leader who loves building great teams, and using data and evidence to drive effective decision making and inform product innovation. I lead the Research, Analytics & Data Science (RAD) team at Intercom where I've been based for the past ~8 years. We're on a mission to drive effective, evidence-based decisions using research and data science. We believe in the power of combining quantitative and qualitative approaches to drive product direction, shape company strategy, and gain a holistic understanding of our customers and business.
+I’m a Research & Data Science leader who blends evidence and empathy to help companies focus on what matters most. At Intercom, I lead Team RAD—a brilliant mix of AI-forward researchers and data scientists who use qualitative and quantitative methods to inform decision-making, fuel product innovation, and shape more intelligent, human-centered experiences.
           </p>
           <p>
-            Before Intercom, I spent 8 years in industrial research labs — Yahoo Labs and Telefonica Research — leading teams of scientists and conducting research of my own focused on understanding, mining and modeling mobile user behaviours with a view to a shaping new product innovation. I hold a PhD in Computer Science and have published 50 peer reviewed papers at top-tier conferences in areas like human computer interaction, mobile computing, information retrieval and recommender systems.
+Before Intercom, I spent 8 years in scientific research labs - Yahoo and Telefónica - leading teams of scientists and conducting research of my own at the intersection of human-computer interaction, AI, and mobile computing. My research helped power products like Yahoo Mobile Search, Flurry, Aviate, and Gemini. I have a PhD in Computer Science from UCD, a strong technical background, and have published over 30 peer-reviewed papers in top-tier conferences and journals across human computer interaction, mobile computing, information retrieval and recommender systems.
           </p>
           <p>
-            I founded HER+Data, a community to support and connect women who work with & love data. I enjoy writing and speaking about my experiences in research, data science and leadership. I love meeting and connecting with others so feel free to drop me an email or say hi on Twitter or LinkedIn.
+In 2017 I founded HER+Data, a community supporting women in analytics and data science. Over nearly eight years, we built a community of > 1000 people, hosted 36 events, featured 80+ speakers, and created an empowering space where women found their voice, built skills, and supported each other’s growth. HER+Data Dublin came to a close in 2025 - a bittersweet but intentional decision. I’m deeply proud of the space we built together.
           </p>
           <p>
-            I live in Dublin, Ireland with my husband, two children and chocolate labrador. I'm a big foodie, amateur baker and curious crafter. I like lifting heavy weights and a good glass of red wine!
+I care about building products that solve actual problems, nurturing happy, high-performing teams, and sharing what I’ve learned along the way. You’ll find me writing, speaking, or mentoring in spaces where research, data science, leadership, AI and impact meet.
+          </p>
+          <p>
+            I’m Irish and live in Dublin, Ireland with my husband, two kids, and a chocolate Labrador. I’ve lived in London, Barcelona and San Francisco. I'm a big foodie, amateur baker, obsessed with most forms of craft, and a fan of lifting heavy weights and good red wine.
           </p>
         </div>
       </div>
