@@ -12,33 +12,33 @@ const WritingSpeaking = () => {
         {/* Overview */}
         <div className="mb-16 text-slate-600 leading-relaxed">
           <p className="mb-4">
-            I speak about research, data science, AI and product innovation - with a growing focus on how AI is reshaping the way we work, build, and serve customers. My talks explore what it means to lead AI-forward teams, how AI is blurring the lines between disciplines, and the evolving role of data and research in driving decisions across fast-moving organizations.
+            I speak and write about leadership, research, data science and product innovation - with a growing focus on how AI is reshaping the way we work, build, and serve customers. My recent talks and writing explore what it means to lead AI-forward teams, how AI is blurring the lines between disciplines, and the evolving role of data and research in driving decisions across fast-moving organizations.
           </p>
           <p>
-            Whether I'm giving a keynote, joining a panel, or recording a podcast, I focus on sharing tangible learnings and practical tools - from building high-impact research and data science teams to applying insights in the real world. If you're organizing a conference, panel, or internal event, feel free to get in touch.
+            Whether I'm giving a keynote, writing a blog post, or recording a podcast, I focus on sharing tangible learnings and practical tools - from building high-impact research and data science teams to applying insights in the real world. If you're organizing a conference, panel, or internal event, feel free to get in touch.
           </p>
         </div>
 
-        {/* Podcasts */}
+
+        {/* Selected Podcasts, Talks & Panels */}
         <div className="mb-12">
-          <h3 className="text-xl font-light text-slate-800 mb-6">📻 Podcasts</h3>
+          <h3 className="text-xl font-light text-slate-800 mb-6">🎤 Selected Podcasts, Talks & Panels</h3>
           <div className="space-y-4">
-            <div>
+           <div>
               <p className="text-slate-800">
                 <strong>Connect AI Podcast – How AI is a Game-Changer for Customer Support</strong> (May 2025)
               </p>
             </div>
-          </div>
-        </div>
-
-        {/* Selected Talks & Panels */}
-        <div className="mb-12">
-          <h3 className="text-xl font-light text-slate-800 mb-6">🎤 Selected Talks & Panels</h3>
-          <div className="space-y-4">
             <div>
               <p className="text-slate-800">
                 <strong>Rewriting the Rules: How AI is Transforming Research, Data Science, and Beyond</strong><br />
                 <em>Backmarket Product & Data Fair</em> (April 2025)
+              </p>
+            </div>
+            <div>
+              <p className="text-slate-800">
+                <strong>From Academia to Industry: 5 Things you should know</strong><br />
+                <em>Keynote, UCD Insights Plenary</em> (August 2024)
               </p>
             </div>
             
@@ -93,24 +93,11 @@ const WritingSpeaking = () => {
             
             <div>
               <p className="text-slate-800">
-                <strong>My Personal Journey with Data</strong><br />
-                <em>HER+Data Dublin</em> (May 2017)
-              </p>
-            </div>
-            
-            <div>
-              <p className="text-slate-800">
                 <strong>Great Analytics Starts with Great Foundations</strong><br />
                 <em>Predict 2017</em> (Oct 2016) <a href="#" className="text-blue-600 hover:text-blue-800">📹 Video</a>
               </p>
             </div>
             
-            <div>
-              <p className="text-slate-800">
-                <strong>Mobile Search: A Force to Be Reckoned With!</strong><br />
-                <em>ECIR 2013 Industry Day</em> (March 2013) <a href="#" className="text-blue-600 hover:text-blue-800">📄 Slides</a>
-              </p>
-            </div>
           </div>
         </div>
 
@@ -120,7 +107,8 @@ const WritingSpeaking = () => {
           <div className="space-y-4">
             <div>
               <p className="text-slate-800">
-                <strong>Rewriting the Rules: How AI is Transforming Research, Data Science, and Beyond</strong> (April 2025)
+                <strong>Rewriting the Rules: How AI is Transforming Research, Data Science, and Beyond</strong>
+                <br/> <a href="https://medium.com/intercom-rad/rewriting-the-rules-how-ai-is-transforming-research-data-science-and-beyond-f1ecc579ffa7" className="text-blue-600 hover:text-blue-800">Intercom RAD Medium Blog</a> (April 2025) 
               </p>
             </div>
             
@@ -210,7 +198,7 @@ const WritingSpeaking = () => {
             <div>
               <p className="text-slate-800">
                 <strong>Intercom's Karen Church on Product Analytics</strong><br />
-                <em>Inside Intercom Podcast</em> (July 2017) <a href="#" className="text-blue-600 hover:text-blue-800">🎧</a>
+                <em>Inside Intercom Podcast</em> (July 2017) 
               </p>
             </div>
             
