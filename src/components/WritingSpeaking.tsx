@@ -19,7 +19,6 @@ const WritingSpeaking = () => {
           </p>
         </div>
 
-
         {/* Selected Podcasts, Talks & Panels */}
         <div className="mb-12">
           <h3 className="text-xl font-light text-purple-200 mb-6">🎤 Selected Podcasts, Talks & Panels</h3>
@@ -103,8 +102,6 @@ const WritingSpeaking = () => {
                 <em>Predict 2017</em> (Oct 2016) <a href="#" className="text-purple-300 hover:text-purple-100 underline">📹 Video</a>
               </p>
             </div>
-            
-            
           </div>
         </div>
 
@@ -188,15 +185,12 @@ const WritingSpeaking = () => {
               </p>
             </div>
             
-            
             <div>
               <p className="text-white">
                 <strong>Searches, Notifications & Emoji: What Data Reveals About People</strong><br />
                 <em>Inside Intercom Blog</em> (September 2017)
               </p>
             </div>
-            
-            
             
             <div>
               <p className="text-white">
@@ -211,6 +205,7 @@ const WritingSpeaking = () => {
                 <em>Inside Intercom Blog</em> (December 2016)
               </p>
             </div>
+          </div>
         </div>
       </div>
     </section>
