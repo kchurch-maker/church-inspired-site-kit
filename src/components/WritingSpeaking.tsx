@@ -115,8 +115,7 @@ const WritingSpeaking = () => {
             <div>
               <p className="text-slate-800">
                 <strong>Rewriting the Rules: How AI is Transforming Research, Data Science, and Beyond</strong>
-                <br/> <em>Medium Publication</em> 
-                <a href="https://medium.com/intercom-rad/rewriting-the-rules-how-ai-is-transforming-research-data-science-and-beyond-f1ecc579ffa7" className="text-blue-600 hover:text-blue-800">🔗 Link</a> (April 2025) 
+                <br/> <em>Medium Publication</em> (April 2025) <a href="https://medium.com/intercom-rad/rewriting-the-rules-how-ai-is-transforming-research-data-science-and-beyond-f1ecc579ffa7" className="text-blue-600 hover:text-blue-800">🔗 Link</a>
               </p>
             </div>
             
