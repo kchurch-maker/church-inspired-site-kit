@@ -86,6 +86,12 @@ const WritingSpeaking = () => {
             
             <div>
               <p className="text-slate-800">
+                <strong>Intercom's Karen Church on Product Analytics</strong><br />
+                <em>Inside Intercom Podcast</em> (July 2017) 
+              </p>
+            </div>
+            <div>
+              <p className="text-slate-800">
                 <strong>The Human Side of Data</strong><br />
                 <em>InspireFest</em> (July 2017) <a href="#" className="text-blue-600 hover:text-blue-800">📹 Video</a>
               </p>
@@ -97,6 +103,7 @@ const WritingSpeaking = () => {
                 <em>Predict 2017</em> (Oct 2016) <a href="#" className="text-blue-600 hover:text-blue-800">📹 Video</a>
               </p>
             </div>
+            
             
           </div>
         </div>
@@ -182,12 +189,6 @@ const WritingSpeaking = () => {
               </p>
             </div>
             
-            <div>
-              <p className="text-slate-800">
-                <strong>2017 — My Year in Review</strong><br />
-                <em>Medium</em> (December 2017)
-              </p>
-            </div>
             
             <div>
               <p className="text-slate-800">
@@ -196,12 +197,7 @@ const WritingSpeaking = () => {
               </p>
             </div>
             
-            <div>
-              <p className="text-slate-800">
-                <strong>Intercom's Karen Church on Product Analytics</strong><br />
-                <em>Inside Intercom Podcast</em> (July 2017) 
-              </p>
-            </div>
+            
             
             <div>
               <p className="text-slate-800">
@@ -216,21 +212,6 @@ const WritingSpeaking = () => {
                 <em>Inside Intercom Blog</em> (December 2016)
               </p>
             </div>
-            
-            <div>
-              <p className="text-slate-800">
-                <strong>80 Women in Tech Programs & Events in the Bay Area</strong><br />
-                <em>Medium</em> (August 2016)
-              </p>
-            </div>
-            
-            <div>
-              <p className="text-slate-800">
-                <strong>Crowdsourcing Women in Tech Programs & Events in the Bay Area</strong><br />
-                <em>Medium</em> (August 2015)
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
