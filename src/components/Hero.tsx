@@ -7,13 +7,13 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center px-6 lg:px-8 pb-12">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
         <div className="flex-shrink-0">
-          <Avatar className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64">
+          <Avatar className="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-lg">
             <AvatarImage 
               src="/lovable-uploads/c43002a8-1512-4127-9afd-81c031d7cccc.png" 
               alt="Karen Church" 
-              className="object-cover"
+              className="object-cover rounded-lg"
             />
-            <AvatarFallback className="text-4xl">KC</AvatarFallback>
+            <AvatarFallback className="text-4xl rounded-lg">KC</AvatarFallback>
           </Avatar>
         </div>
         
