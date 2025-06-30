@@ -3,9 +3,9 @@ import React from 'react';
 
 const WritingSpeaking = () => {
   return (
-    <section id="writing-speaking" className="py-24 px-6 lg:px-8 bg-purple-100 text-slate-800">
+    <section id="writing-speaking" className="py-24 px-6 lg:px-8 bg-gray-50 text-slate-800">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-light text-slate-800 mb-16 text-center">
+        <h2 className="text-3xl md:text-4xl font-light text-slate-800 mb-16 text-left">
           Writing & Speaking
         </h2>
         
@@ -21,7 +21,7 @@ const WritingSpeaking = () => {
 
         {/* Selected Podcasts, Talks & Panels */}
         <div className="mb-12">
-          <h3 className="text-xl font-light text-purple-800 mb-6">🎤 Selected Podcasts, Talks & Panels</h3>
+          <h3 className="text-xl font-light text-slate-800 mb-6">🎤 Selected Podcasts, Talks & Panels</h3>
           <div className="space-y-4">
            <div>
               <p className="text-slate-800">
@@ -107,7 +107,7 @@ const WritingSpeaking = () => {
 
         {/* Selected Writing */}
         <div>
-          <h3 className="text-xl font-light text-purple-800 mb-6">Selected Writing</h3>
+          <h3 className="text-xl font-light text-slate-800 mb-6">Selected Writing</h3>
           <div className="space-y-4">
             <div>
               <p className="text-slate-800">
